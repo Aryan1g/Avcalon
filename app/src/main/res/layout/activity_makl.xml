@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".makl">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/ic_baseline_west_24"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Settings"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato"
+        android:textStyle="bold"
+        android:layout_marginStart="60dp"
+        android:layout_height="wrap_content"/>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="70dp"
+           android:layout_marginStart="15dp"
+           android:id="@+id/sssg"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:layout_width="48dp"
+               android:id="@+id/oop1"
+
+               android:layout_marginTop="5dp"
+               android:layout_height="48dp"/>
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:text="Privacy and Security"
+                  android:layout_marginStart="4dp"
+                  android:textSize="17sp"
+                  android:layout_marginTop="22dp"
+                  android:fontFamily="@font/lato"
+                  android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/sssg"
+        android:id="@+id/nnn"
+
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="42dp"
+            android:id="@+id/oop2"
+
+            android:layout_height="42dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"
+            android:text="Personal info"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/nnn"
+        android:id="@+id/mmm"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/zxc"
+
+            android:layout_height="40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Control room"
+            android:layout_marginStart="11dp"
+            android:textSize="17sp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/lato"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/mmm"
+        android:id="@+id/mkl"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:id="@+id/mno"
+            android:layout_height="45dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Invite friends"
+            android:textSize="17sp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/mkl"
+        android:id="@+id/khl"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:id="@+id/aaa"
+
+            android:layout_height="45dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="About aster"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/lato"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/khl"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="42dp"
+            android:id="@+id/lpo"
+
+            android:layout_height="42dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Help"
+            android:textSize="17sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/lato"
+
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

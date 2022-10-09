@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aldrich</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/bangers</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/chau_philomene_one</item>
+        <item>@font/chewy</item>
+        <item>@font/cormorant</item>
+        <item>@font/inter</item>
+        <item>@font/kavoon</item>
+        <item>@font/lato</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/noto_sans</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_condensed_bold</item>
+        <item>@font/oswald</item>
+        <item>@font/playfair_display</item>
+        <item>@font/poppins</item>
+        <item>@font/roboto</item>
+        <item>@font/source_sans_pro</item>
+        <item>@font/ubuntu_medium</item>
+        <item>@font/unlock</item>
+        <item>@font/zilla_slab_highlight</item>
+    </array>
+
+</resources>
